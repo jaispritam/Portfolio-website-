@@ -40,6 +40,9 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { TbTerminal2 } from "react-icons/tb";
 
+// Mark as dynamic to prevent static generation timeout
+export const dynamic = 'force-dynamic';
+
 const CONTACT_LINKS = [
   {
     name: "Email",

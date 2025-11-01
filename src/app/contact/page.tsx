@@ -1,5 +1,8 @@
 import React from "react";
 
+// Mark as dynamic to prevent static generation timeout
+export const dynamic = 'force-dynamic';
+
 function Page() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {

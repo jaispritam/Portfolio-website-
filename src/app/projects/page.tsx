@@ -2,6 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+// Mark as dynamic to prevent static generation timeout
+export const dynamic = 'force-dynamic';
 // @ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
